@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="502.0" prefWidth="531.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kursywalut.CurrencyConverterController">
+    <children>
+      <Label layoutX="38.0" layoutY="29.0" prefHeight="47.0" prefWidth="432.0" text="Wybierz Waluty i sprawdź kurs.">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtField1" layoutX="165.0" layoutY="116.0" prefHeight="65.0" prefWidth="279.0" />
+      <Label layoutX="385.0" layoutY="116.0" prefHeight="28.0" prefWidth="59.0" text="Mam" />
+      <TextField fx:id="txtField2" layoutX="165.0" layoutY="251.0" prefHeight="65.0" prefWidth="279.0" />
+      <Label layoutX="385.0" layoutY="251.0" prefHeight="22.0" prefWidth="59.0" text="Chcę" />
+      <ComboBox fx:id="cmbBox1" layoutX="36.0" layoutY="116.0" prefHeight="65.0" prefWidth="129.0" />
+      <ComboBox fx:id="cmbBox2" layoutX="36.0" layoutY="251.0" prefHeight="65.0" prefWidth="129.0" />
+      <Button fx:id="btnSubmit" layoutX="36.0" layoutY="388.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="411.0" text="Oblicz">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
